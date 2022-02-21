@@ -1,17 +1,38 @@
-# leetcode.solution
+<h1 align="center"> LeetCode Practise </h1>
+
+<p align="center">
+  <a href="https://github.com/facebook/react-native/blob/HEAD/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native is released under the MIT license." />
+  </a>
+  <a href="https://reactnative.dev/docs/contributing">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+  </a>
+</p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
+## 👇 Overview
 
 ## 💎 Coding Challenge
 https://leetcode.com/nphau
-###  🔥 1. Concatenation Of Array
-- https://leetcode.com/problems/concatenation-of-array/submissions/
-- [Solution: ConcatenationArray](easy/ConcatenationArray.java)
 
-###  🔥🔥🔥 2. First Missing Positive
+###  🔥 26. Remove Duplicates from sorted array
+- https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+- [Solution: Remove Duplicates](src/sg/nphau/leetcode/easy/RemoveDuplicates.java)
+###  🔥 27. Remove Element
+- https://leetcode.com/problems/remove-element
+- [Solution: Remove Element](src/sg/nphau/leetcode/easy/RemoveElement.java)
+###  🔥 1929. Concatenation Of Array
+- https://leetcode.com/problems/concatenation-of-array
+- [Solution: ConcatenationArray](src/sg/nphau/leetcode/easy/ConcatenationArray.java)
+
+###  🔥🔥🔥 41. First Missing Positive
 - https://leetcode.com/problems/first-missing-positive
-- https://gist.github.com/nphau/8681c62c3748eef5849066d337b166df
-- https://gist.github.com/nphau/98f395bc4d78f117cf5feb3e1bc9d266
-- [Solution: Sort Array](hard/FirstMissingPositive.java)
-- [Solution: UnSort Array](hard/FirstMissingPositive.kt)
+- [Solution: Sort Array](src/sg/nphau/leetcode/hard/FirstMissingPositive.java)
+
+- [Solution: UnSort Array](src/sg/nphau/leetcode/hard/FirstMissingPositive.kt)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
 ## 👇 Author
 <p>
     <a href="https://nphau.medium.com/" target="_blank">
