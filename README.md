@@ -13,27 +13,44 @@
 
 ## 👇 Overview
 
+LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical
+interviews.
+
+🔥 Easy 🔥🔥 Medium 🔥🔥🔥 Hard
+
 ## 💎 Coding Challenge
+
 https://leetcode.com/nphau
 
 ###  🔥 26. Remove Duplicates from sorted array
+
 - https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 - [Solution: Remove Duplicates](src/sg/nphau/leetcode/easy/RemoveDuplicates.java)
+
 ###  🔥 27. Remove Element
+
 - https://leetcode.com/problems/remove-element
 - [Solution: Remove Element](src/sg/nphau/leetcode/easy/RemoveElement.java)
+
 ###  🔥 1929. Concatenation Of Array
+
 - https://leetcode.com/problems/concatenation-of-array
 - [Solution: ConcatenationArray](src/sg/nphau/leetcode/easy/ConcatenationArray.java)
 
+###  🔥🔥 17. Letter Combinations of a Phone Number
+
+- https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+- [Solution: Letter Combinations of a Phone Number](src/sg/nphau/leetcode/medium/LetterCombinations.java)
+
 ###  🔥🔥🔥 41. First Missing Positive
+
 - https://leetcode.com/problems/first-missing-positive
 - [Solution: Sort Array](src/sg/nphau/leetcode/hard/FirstMissingPositive.java)
-
 - [Solution: UnSort Array](src/sg/nphau/leetcode/hard/FirstMissingPositive.kt)
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 ## 👇 Author
+
 <p>
     <a href="https://nphau.medium.com/" target="_blank">
     <img src="https://avatars2.githubusercontent.com/u/13111806?s=400&u=f09b6160dbbe2b7eeae0aeb0ab4efac0caad57d7&v=4" width="96" height="96">
