@@ -16,38 +16,24 @@
 LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical
 interviews.
 
+https://leetcode.com/nphau
+
 🔥 Easy 🔥🔥 Medium 🔥🔥🔥 Hard
 
 ## 💎 Coding Challenge
 
-https://leetcode.com/nphau
+| Challenge  | Level  |  Java | Kotlin | Link
+|---|---|---|---|---
+| ValidParentheses  | 🔥 |  [Solution](src/sg/nphau/leetcode/easy/ValidParentheses.java) | - | [20](https://leetcode.com/problems/valid-parentheses)
+| Remove Duplicates  | 🔥 |  [Solution](src/sg/nphau/leetcode/easy/RemoveDuplicates.java) | - | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+| Remove Element  | 🔥 |  [Solution](src/sg/nphau/leetcode/easy/RemoveElement.java) | - | [27](https://leetcode.com/problems/remove-element)
+| Concatenation Of Array  | 🔥 |  [Solution](src/sg/nphau/leetcode/easy/ConcatenationArray.java) | - | [1929](https://leetcode.com/problems/concatenation-of-array)
+| Letter Combinations of a Phone Number  | 🔥🔥 |  [Solution](src/sg/nphau/leetcode/medium/LetterCombinations.java) | - | [17](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+| Decode Ways | 🔥🔥 |  [Solution](src/sg/nphau/leetcode/medium/DecodeWays.java) | - | [91](https://leetcode.com/problems/decode-ways)
+| Find K Closest Elements | 🔥🔥 |  [Solution](src/sg/nphau/leetcode/medium/FindClosestElements.java) | - | [658](https://leetcode.com/problems/find-k-closest-elements)
+| First Missing Positive | 🔥🔥🔥 |  [Solution](src/sg/nphau/leetcode/hard/FirstMissingPositive.java) | [Solution](src/sg/nphau/leetcode/hard/FirstMissingPositive.kt) | [41](https://leetcode.com/problems/first-missing-positive)
 
-###  🔥 26. Remove Duplicates from sorted array
-
-- https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-- [Solution: Remove Duplicates](src/sg/nphau/leetcode/easy/RemoveDuplicates.java)
-
-###  🔥 27. Remove Element
-
-- https://leetcode.com/problems/remove-element
-- [Solution: Remove Element](src/sg/nphau/leetcode/easy/RemoveElement.java)
-
-###  🔥 1929. Concatenation Of Array
-
-- https://leetcode.com/problems/concatenation-of-array
-- [Solution: ConcatenationArray](src/sg/nphau/leetcode/easy/ConcatenationArray.java)
-
-###  🔥🔥 17. Letter Combinations of a Phone Number
-
-- https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-- [Solution: Letter Combinations of a Phone Number](src/sg/nphau/leetcode/medium/LetterCombinations.java)
-
-###  🔥🔥🔥 41. First Missing Positive
-
-- https://leetcode.com/problems/first-missing-positive
-- [Solution: Sort Array](src/sg/nphau/leetcode/hard/FirstMissingPositive.java)
-- [Solution: UnSort Array](src/sg/nphau/leetcode/hard/FirstMissingPositive.kt)
-  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 ## 👇 Author
 

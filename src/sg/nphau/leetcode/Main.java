@@ -1,16 +1,16 @@
+/**
+ * Created by nphau on 09/12/2021, 00:30
+ * Copyright (c) 2021 . All rights reserved.
+ * Last modified 09/12/2021, 15:54
+ */
 package sg.nphau.leetcode;
+
+import sg.nphau.leetcode.medium.DecodeWays;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] nums = {0, 1, 2, 2, 3, 0, 4, 2};
-        int val = 2;
-        int pos = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != val) {
-                nums[pos++] = nums[i];
-            }
-        }
-        System.out.println(pos);
+        String s = "12";
+        System.out.println(DecodeWays.numDecodings(s));
     }
 }
