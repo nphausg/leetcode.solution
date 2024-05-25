@@ -3,12 +3,12 @@
  * Copyright (c) 2021 . All rights reserved.
  * Last modified 09/12/2021, 15:54
  */
-package sg.nphau.leetcode.easy;
+package com.nphausg.leetcode.easy;
 
 import java.util.Stack;
 
 /**
- * https://leetcode.com/problems/valid-parentheses
+ * <a href="https://leetcode.com/problems/valid-parentheses">...</a>
  */
 public class ValidParentheses {
     public boolean isValid(String s) {

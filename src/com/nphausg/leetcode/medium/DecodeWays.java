@@ -4,10 +4,11 @@
  * Last modified 09/12/2021, 15:54
  */
 
-package sg.nphau.leetcode.medium;
+package com.nphausg.leetcode.medium;
 
 /**
- * https://leetcode.com/problems/decode-ways/
+ * 91. Decode Ways
+ * <a href="https://leetcode.com/problems/decode-ways/">...</a>
  */
 public class DecodeWays {
 

@@ -3,14 +3,15 @@
  * Copyright (c) 2021 . All rights reserved.
  * Last modified 09/12/2021, 15:54
  */
-package sg.nphau.leetcode.medium;
+package com.nphausg.leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/letter-combinations-of-a-phone-number
+ * 17. Letter Combinations of a Phone Number
+ * <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number">...</a>
  */
 public class LetterCombinations {
     public List<String> letterCombinations(String digits) {

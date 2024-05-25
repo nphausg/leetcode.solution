@@ -3,10 +3,10 @@
  * Copyright (c) 2021 . All rights reserved.
  * Last modified 09/12/2021, 15:54
  */
-package sg.nphau.leetcode.easy;
+package com.nphausg.leetcode.easy;
 
 /**
- * https://leetcode.com/problems/remove-element/
+ * <a href="https://leetcode.com/problems/remove-element/">...</a>
  */
 public class RemoveElement {
 

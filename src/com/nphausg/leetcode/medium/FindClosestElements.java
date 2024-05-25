@@ -3,16 +3,17 @@
  * Copyright (c) 2021 . All rights reserved.
  * Last modified 09/12/2021, 15:54
  */
-package sg.nphau.leetcode.medium;
+package com.nphausg.leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/find-k-closest-elements/
+ * 658. Find K Closest Elements
+ * <a href="https://leetcode.com/problems/find-k-closest-elements/">...</a>
  */
 public class FindClosestElements {
-    public List<Integer> findClosestElements(int[] arr, int k, int x) {
+    public static List<Integer> findClosestElements(int[] arr, int k, int x) {
         int left = 0, right = arr.length - k;
         while (left < right) {
             int mid = left + (right - left) / 2;

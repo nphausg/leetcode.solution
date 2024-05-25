@@ -3,7 +3,7 @@
  * Copyright (c) 2021 . All rights reserved.
  * Last modified 09/12/2021, 15:54
  */
-package sg.nphau.leetcode.hard;
+package com.nphausg.leetcode.hard;
 
 import java.util.Arrays;
 
