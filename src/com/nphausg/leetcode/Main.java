@@ -5,7 +5,7 @@
  */
 package com.nphausg.leetcode;
 
-import com.nphausg.leetcode.medium.LongestCommonSubsequence;
+import com.nphausg.leetcode.practice.Practice;
 
 public class Main {
 
@@ -23,6 +23,7 @@ public class Main {
         // String text1 = "abc";
         // String text2 = "def";
 
-        System.out.println(LongestCommonSubsequence.longestCommonSubsequence(text1, text2));
+        // System.out.println(LongestCommonSubsequence.longestCommonSubsequence(text1, text2));
+        System.out.println(Practice.powerOf2(50));
     }
 }

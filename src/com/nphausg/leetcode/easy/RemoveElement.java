@@ -6,7 +6,7 @@
 package com.nphausg.leetcode.easy;
 
 /**
- * <a href="https://leetcode.com/problems/remove-element/">...</a>
+ * <a href="https://leetcode.com/problems/remove-element/">Remove Element</a>
  */
 public class RemoveElement {
 

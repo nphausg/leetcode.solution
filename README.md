@@ -16,23 +16,31 @@
 LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical
 interviews.
 
-https://leetcode.com/nphausg
+Leetcode: https://leetcode.com/nphausg
 
-🔥 Easy 🔥🔥 Medium 🔥🔥🔥 Hard
+Medium: https://medium.com/@nphausg
 
-## 💎 Coding Challenge
+🔥 Easy
 
-| Challenge                                                                                                        | Level  | Java                                                                      | Kotlin                                                            |
-|------------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [20. ValidParentheses](https://leetcode.com/problems/valid-parentheses)                                          | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ValidParentheses.java)           | -                                                                 |
-| [26. Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                       | 🔥     | [Solution](src/com/nphausg/leetcode/easy/RemoveDuplicates.java)           | -                                                                 |
-| [27. Remove Element](https://leetcode.com/problems/remove-element)                                               | 🔥     | [Solution](src/com/nphausg/leetcode/easy/RemoveElement.java)              | -                                                                 |
-| [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array)                             | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ConcatenationArray.java)         | -                                                                 |
-| [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LetterCombinations.java)       | -                                                                 |
-| [91. Decode Ways ](https://leetcode.com/problems/decode-ways)                                                    | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/DecodeWays.java)               | -                                                                 |
-| [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                     | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LongestCommonSubsequence.java) |
-| [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)                            | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/FindClosestElements.java)      | -                                                                 |
-| [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive)                               | 🔥🔥🔥 | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.java)       | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.kt) |
+🔥🔥 Medium
+
+🔥🔥🔥 Hard
+
+## 💎 Coding Challenges
+
+| Challenge                                                                                                          | Level  | Java                                                                        | Kotlin                                                            |
+|--------------------------------------------------------------------------------------------------------------------|--------|-----------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [0001. Two sum](https://leetcode.com/problems/two-sum)                                                             | 🔥     | -                                                                           | [Solution](src/com/nphausg/leetcode/easy/TwoSum.kt)      |
+| [0020. ValidParentheses](https://leetcode.com/problems/valid-parentheses)                                          | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ValidParentheses.java)             | -                                                                 |
+| [0026. Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                       | 🔥     | [Solution](src/com/nphausg/leetcode/easy/RemoveDuplicates.java)             | -                                                                 |
+| [0027. Remove Element](https://leetcode.com/problems/remove-element)                                               | 🔥     | [Solution](src/com/nphausg/leetcode/easy/RemoveElement.java)                | -                                                                 |
+| [0121. Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)             | 🔥     | -                                                                           | [Solution](src/com/nphausg/leetcode/easy/BuyAndSellStock.kt)      |
+| [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array)                               | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ConcatenationArray.java)           | -                                                                 |
+| [0017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LetterCombinations.java)         | -                                                                 |
+| [0091. Decode Ways ](https://leetcode.com/problems/decode-ways)                                                    | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/DecodeWays.java)                 | -                                                                 |
+| [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                       | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LongestCommonSubsequence.java)   |
+| [0658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)                             | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/FindClosestElements.java)        | -                                                                 |
+| [0041. First Missing Positive](https://leetcode.com/problems/first-missing-positive)                               | 🔥🔥🔥 | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.java)         | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.kt) |
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
