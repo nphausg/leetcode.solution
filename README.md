@@ -20,13 +20,10 @@ Leetcode: https://leetcode.com/nphausg
 
 Medium: https://medium.com/@nphausg
 
-🔥 Easy
-
-🔥🔥 Medium
-
-🔥🔥🔥 Hard
 
 ## 💎 Coding Challenges
+
+🔥 Easy
 
 | Challenge                                                                                                          | Level  | Java                                                                      | Kotlin                                                            |
 |--------------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -38,10 +35,20 @@ Medium: https://medium.com/@nphausg
 | [0217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                       | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ContainsDuplicate.java)          | -                                                                 |
 | [0219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)                                 | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ContainsDuplicate2.java)         | -                                                                 |
 | [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array)                               | 🔥     | [Solution](src/com/nphausg/leetcode/easy/ConcatenationArray.java)         | -                                                                 |
+
+🔥🔥 Medium
+
+| Challenge                                                                                                          | Level  | Java                                                                      | Kotlin                                                            |
+|--------------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [0017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LetterCombinations.java)       | -                                                                 |
 | [0091. Decode Ways ](https://leetcode.com/problems/decode-ways)                                                    | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/DecodeWays.java)               | -                                                                 |
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                       | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LongestCommonSubsequence.java) |
 | [0658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)                             | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/FindClosestElements.java)      | -                                                                 |
+
+🔥🔥🔥 Hard
+
+| Challenge                                                                                                          | Level  | Java                                                                      | Kotlin                                                            |
+|--------------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [0041. First Missing Positive](https://leetcode.com/problems/first-missing-positive)                               | 🔥🔥🔥 | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.java)       | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.kt) |
 | [0220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii)                               | 🔥🔥🔥 | [Solution](src/com/nphausg/leetcode/hard/ContainsDuplicate3.java)         | -                                                                 |
 
