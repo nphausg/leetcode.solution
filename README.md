@@ -43,6 +43,7 @@ Medium: https://medium.com/@nphausg
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                       | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/LongestCommonSubsequence.java) |
 | [0658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)                             | 🔥🔥   | [Solution](src/com/nphausg/leetcode/medium/FindClosestElements.java)      | -                                                                 |
 | [0041. First Missing Positive](https://leetcode.com/problems/first-missing-positive)                               | 🔥🔥🔥 | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.java)       | [Solution](src/com/nphausg/leetcode/hard/FirstMissingPositive.kt) |
+| [0220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii)                               | 🔥🔥🔥 | [Solution](src/com/nphausg/leetcode/hard/ContainsDuplicate3.java)         | -                                                                 |
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 

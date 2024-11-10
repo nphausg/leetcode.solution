@@ -5,7 +5,6 @@ import com.nphausg.leetcode.config.BaseTest;
 import java.util.HashSet;
 
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 /**
  * <a href="https://leetcode.com/problems/contains-duplicate-ii">Contains duplicate II</a>
