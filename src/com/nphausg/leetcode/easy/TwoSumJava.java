@@ -5,8 +5,6 @@ import com.nphausg.leetcode.config.BaseTest;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
-
 /**
  * <a href="https://leetcode.com/problems/two-sum">Two Sum</a>
  */

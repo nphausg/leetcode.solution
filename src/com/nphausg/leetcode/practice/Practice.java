@@ -58,7 +58,7 @@ public class Practice {
 
     /*
      * Implement an algorithm to determine if a string has all unique characters. Wht if you cannot use additional data structure
-     * #44 -> no, #117 -> no, #132 -> yes
+     * 2 loops -> O(n^2)
      * */
     public static boolean isUnique(String s) {
         for (int i = 0; i < s.toCharArray().length - 1; i++) {
@@ -104,6 +104,9 @@ public class Practice {
             System.out.println("is 44 unique = " + isUnique2("44"));
             System.out.println("is 117 unique = " + isUnique2("117"));
             System.out.println("is 132 unique = " + isUnique2("132"));
+            //
+            System.out.println("is `abcd10jk` unique = " + isUnique2("abcd10jk"));
+            System.out.println("is `hutg9mnd!nk9` unique = " + isUnique2("hutg9mnd!nk9"));
             //
         }
     }
