@@ -24,16 +24,17 @@ Medium: https://medium.com/@nphausg
 
 🔥 Easy
 
-| Challenge                                                                                              | Level | Java                                                              | Kotlin                                                       |
-|--------------------------------------------------------------------------------------------------------|-------|-------------------------------------------------------------------|--------------------------------------------------------------|
-| [0001. Two sum](https://leetcode.com/problems/two-sum)                                                 | 🔥    | [Solution](src/com/nphausg/leetcode/easy/TwoSumJava.java)         | [Solution](src/com/nphausg/leetcode/easy/TwoSum.kt)          |
-| [0020. ValidParentheses](https://leetcode.com/problems/valid-parentheses)                              | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ValidParentheses.java)   | -                                                            |
-| [0026. Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)           | 🔥    | [Solution](src/com/nphausg/leetcode/easy/RemoveDuplicates.java)   | -                                                            |
-| [0027. Remove Element](https://leetcode.com/problems/remove-element)                                   | 🔥    | [Solution](src/com/nphausg/leetcode/easy/RemoveElement.java)      | -                                                            |
+| Challenge                                                                                             | Level | Java                                                              | Kotlin                                                       |
+|-------------------------------------------------------------------------------------------------------|-------|-------------------------------------------------------------------|--------------------------------------------------------------|
+| [0001. Two sum](https://leetcode.com/problems/two-sum)                                                | 🔥    | [Solution](src/com/nphausg/leetcode/easy/TwoSumJava.java)         | [Solution](src/com/nphausg/leetcode/easy/TwoSum.kt)          |
+| [0020. ValidParentheses](https://leetcode.com/problems/valid-parentheses)                             | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ValidParentheses.java)   | -                                                            |
+| [0026. Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)          | 🔥    | [Solution](src/com/nphausg/leetcode/easy/RemoveDuplicates.java)   | -                                                            |
+| [0027. Remove Element](https://leetcode.com/problems/remove-element)                                  | 🔥    | [Solution](src/com/nphausg/leetcode/easy/RemoveElement.java)      | -                                                            |
 | [0121. Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 🔥    | -                                                                 | [Solution](src/com/nphausg/leetcode/easy/BuyAndSellStock.kt) |
-| [0217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                           | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ContainsDuplicate.java)  | -                                                            |
-| [0387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)       | 🔥    | [Solution](src/com/nphausg/leetcode/easy/FirstUniqueCharacterInAString.java)                 | -                                                            |
-| [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array)                   | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ConcatenationArray.java) | -                                                            |
+| [0217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                          | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ContainsDuplicate.java)  | -                                                            |
+| [0387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)      | 🔥    | [Solution](src/com/nphausg/leetcode/easy/FirstUniqueCharacterInAString.java)                 | -                                                            |
+| [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array)                  | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ConcatenationArray.java) | -                                                            |
+| [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice)                   | 🔥    | [Solution](src/com/nphausg/leetcode/easy/FirstLetterToAppearTwice.java) | -                                                            |
 
 🔥🔥 Medium
 

@@ -18,7 +18,6 @@ public class FirstUniqueCharacterInAString {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
-        // Duyệt lại chuỗi để tìm ký tự đầu tiên có số lần xuất hiện là 1
         for (int i = 0; i < s.length(); i++) {
             if (map.get(s.charAt(i)) == 1) {
                 return i;
