@@ -1,4 +1,5 @@
-package com.nphausg.leetcode.easy;
+package com.nphausg.leetcode.medium;
+
 
 import com.nphausg.leetcode.config.BaseTest;
 
@@ -7,14 +8,23 @@ import java.util.HashMap;
 import static org.junit.Assert.assertEquals;
 
 /**
- * <a href="https://leetcode.com/problems/single-number">136. Single Number</a>
+ * <a href="https://leetcode.com/problems/single-number-iii">260. Single Number III</a>
  */
-public class SingleNumber {
+public class SingleNumberIII {
 
-    public static int singleNumber2(int[] nums) {
-        int result = 0;
+    public static int[] singleNumber2(int[] nums) {
+        int xor = 0;
         for (int num : nums) {
-            result ^= num;
+            xor ^= num; // XOR toàn bộ mảng
+        }
+        int diff = xor & (-xor); // Lấy bit khác biệt
+        int[] result = new int[2];
+        for (int num : nums) {
+            if ((num & diff) == 0) {
+                result[0] ^= num;
+            } else {
+                result[1] ^= num;
+            }
         }
         return result;
     }
@@ -42,4 +52,3 @@ public class SingleNumber {
         }
     }
 }
-
