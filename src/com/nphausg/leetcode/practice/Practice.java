@@ -1,8 +1,6 @@
 package com.nphausg.leetcode.practice;
 
 import com.nphausg.leetcode.config.BaseTest;
-import com.nphausg.leetcode.easy.MaximumAverageSubarrayI;
-import com.nphausg.leetcode.medium.LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.HashSet;
 
@@ -88,10 +86,53 @@ public class Practice {
         }
     }
 
-    public static class PracticeTest extends BaseTest {
+    public static void maxInArray(int[] array, int i) {
+        if (array.length == 0) {
+            // return array[0];
+        }
+    }
+
+    // Find the median of two sorted again
+    //public static double median(int[] arr1, int[] arr2) {
+    // [1, 2, 5]
+    // [2, 4, 6]
+
+    // }
+
+    public static int missingNumber(int n, int[] array) {
+
+        int[] hash = new int[n + 1];
+
+        for (int i = 0; i < n - 1; i++) {
+            hash[array[i]]++;
+        }
+
+        for (int i = 1; i <= n; i++) {
+            if (hash[i] == 0) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    public static int missingNumber2(int n, int[] array) {
+        int sum = 0;
+        for (int i = 0; i < n - 1; i++) {
+            sum += array[i];
+        }
+        int expectedSum = n * (n + 1) / 2;
+        return expectedSum - sum;
+    }
+
+    public static void sudoku() {
+
+    }
+
+    public static class TestCase extends BaseTest {
 
         @org.junit.Test
-        public void testCases() {
+        public void test() {
             System.out.println(powerOf2(3));
             System.out.println("2 ^ 3 = " + power(2, 3));
             System.out.println("9 mod 2 = " + mod(9, 2));
@@ -108,6 +149,14 @@ public class Practice {
             System.out.println("is `abcd10jk` unique = " + isUnique2("abcd10jk"));
             System.out.println("is `hutg9mnd!nk9` unique = " + isUnique2("hutg9mnd!nk9"));
             //
+            //median(new int[]{1, 2, 3, 4, 5, 6}, new int[]{0, 0, 0, 0, 10, 10});
+            // Missing number
+            assertEquals(2, missingNumber(5, new int[]{1, 3, 4, 5}));
+            assertEquals(4, missingNumber(5, new int[]{1, 2, 3, 5}));
+            assertEquals(5, missingNumber(8, new int[]{1, 2, 4, 6, 3, 7, 8}));
+            assertEquals(2, missingNumber2(5, new int[]{1, 3, 4, 5}));
+            assertEquals(4, missingNumber2(5, new int[]{1, 2, 3, 5}));
+            assertEquals(5, missingNumber2(8, new int[]{1, 2, 4, 6, 3, 7, 8}));
         }
     }
 }
