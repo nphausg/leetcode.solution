@@ -11,11 +11,11 @@
 with a focus on <strong> readability </strong> consistent style, and adherence to modern standards across diverse topics. This repository is complemented by in-depth Medium blogs, offering <strong>comprehensive explanations</strong> for each solution</span>
 <br>
 <br>
-<img src="https://img.shields.io/badge/Solved-35/3358%20=%201.01%25-blue.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Solved-37/3374%20=%201.1%25-blue.svg?style=flat-square" />
 <br/>
-<img src="https://img.shields.io/badge/Easy-18/837-5CB85C.svg?style=flat-square"/>
-<img src="https://img.shields.io/badge/Medium-13/1756-F0AD4E.svg?style=flat-square"/>
-<img src="https://img.shields.io/badge/Hard-4/766-D9534F.svg?style=flat-square"/>
+<img src="https://img.shields.io/badge/Easy-19/840-5CB85C.svg?style=flat-square"/>
+<img src="https://img.shields.io/badge/Medium-15/1762-F0AD4E.svg?style=flat-square"/>
+<img src="https://img.shields.io/badge/Hard-4/772-D9534F.svg?style=flat-square"/>
 <br/>
 </p>
 
@@ -30,7 +30,7 @@ with a focus on <strong> readability </strong> consistent style, and adherence t
 LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical
 interviews.
 
-Leetcode: https://leetcode.com/nphausg
+LeetCode: https://leetcode.com/nphausg
 
 Medium: https://medium.com/@nphausg
 
@@ -52,6 +52,7 @@ Medium: https://medium.com/@nphausg
 | [0594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence)     | 🔥    | [Solution](src/com/nphausg/leetcode/easy/LongestHarmoniousSubsequence.java)  | -                                                            | [Medium](https://medium.com/gitconnected/leetcode-0594-longest-harmonious-subsequence-all-solutions-explained-a2e34c82334b) |
 | [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array)                     | 🔥    | [Solution](src/com/nphausg/leetcode/easy/ConcatenationArray.java)            | -                                                            | -                                                                                                                           |
 | [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice)         | 🔥    | [Solution](src/com/nphausg/leetcode/easy/FirstLetterToAppearTwice.java)      | -                                                            | [Medium](https://nphausg.medium.com/leetcode-2351-finding-the-first-letter-to-appear-twice-c8d175785353)                                                                                                                  |
+| [2848. Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars)                     | 🔥    | [Solution](src/com/nphausg/leetcode/easy/PointsThatIntersectWithCars.java)            | -                                                            | -                                                                                                                           |
 
 ### 🔥🔥 Medium
 

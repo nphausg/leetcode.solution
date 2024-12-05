@@ -3,10 +3,6 @@ package com.nphausg.leetcode.easy;
 import com.nphausg.leetcode.config.BaseTest;
 import com.nphausg.leetcode.medium.LongestSubstringWithoutRepeatingCharacters;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 
 /**

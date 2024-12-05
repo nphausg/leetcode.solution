@@ -70,14 +70,14 @@ public class LongestSubstringWithoutRepeatingCharacters {
               Output: 3
               Explanation: The answer is "abc", with the length of 3.
              */
-            assertEquals(3, LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring3("abcabcbb"));
+            assertEquals(3, lengthOfLongestSubstring3("abcabcbb"));
             /*
                 Example 2:
                 Input: s = "bbbbb"
                 Output: 1
                 Explanation: The answer is "b", with the length of 1.
             */
-            assertEquals(1, LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring3("bbbbb"));
+            assertEquals(1, lengthOfLongestSubstring3("bbbbb"));
 
             /*
                 Example 3:
@@ -86,7 +86,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
                 Explanation: The answer is "wke", with the length of 3.
                 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
             */
-            assertEquals(3, LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring3("pwwkew"));
+            assertEquals(3, lengthOfLongestSubstring3("pwwkew"));
         }
     }
 }
