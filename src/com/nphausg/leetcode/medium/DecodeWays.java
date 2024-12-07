@@ -6,10 +6,15 @@
 
 package com.nphausg.leetcode.medium;
 
+import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
+
 /**
  * 91. Decode Ways
  * <a href="https://leetcode.com/problems/decode-ways/">...</a>
  */
+@RunWith(Enclosed.class)
 public class DecodeWays {
 
     public static int numDecodings(String s) {
@@ -32,5 +37,13 @@ public class DecodeWays {
         }
 
         return dp[0];
+    }
+
+    public static class TestCase extends BaseTest {
+
+        @org.junit.Test
+        public void testCases() {
+
+        }
     }
 }

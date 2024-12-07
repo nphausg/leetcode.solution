@@ -5,6 +5,10 @@
  */
 package com.nphausg.leetcode.medium;
 
+import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -13,6 +17,7 @@ import java.util.List;
  * 17. Letter Combinations of a Phone Number
  * <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number">...</a>
  */
+@RunWith(Enclosed.class)
 public class LetterCombinations {
     public List<String> letterCombinations(String digits) {
         if (digits.isEmpty()) {
@@ -34,5 +39,13 @@ public class LetterCombinations {
             list.addAll(letter(a.substring(1), ans + n[s].charAt(i), n));
         }
         return list;
+    }
+
+    public static class TestCase extends BaseTest {
+
+        @org.junit.Test
+        public void testCases() {
+
+        }
     }
 }
