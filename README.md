@@ -73,6 +73,7 @@ Medium: https://medium.com/@nphausg
 | [0658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)                             | 🔥🔥  | [Solution](src/com/nphausg/leetcode/medium/FindClosestElements.java)      | -      | -                                                                                                                     |
 | [0729. My Calendar I](https://leetcode.com/problems/my-calendar-i)                                                 | 🔥🔥  | [Solution](src/com/nphausg/leetcode/medium/MyCalendarI.java)              | -      | [Medium](https://nphausg.medium.com/leetcode-0729-effortless-scheduling-a-comprehensive-guide-1b17a0b24ad5)           |
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                       | 🔥🔥  | [Solution](src/com/nphausg/leetcode/medium/LongestCommonSubsequence.java) | -      | -                                                                                                                     |
+| [3169. Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings)                       | 🔥🔥  | [Solution](src/com/nphausg/leetcode/medium/CountDaysWithoutMeetings.java) | -      | -                                                                                                                     |
 
 ### 🔥🔥🔥 Hard
 

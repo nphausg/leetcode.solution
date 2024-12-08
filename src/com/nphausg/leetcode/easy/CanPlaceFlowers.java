@@ -1,8 +1,13 @@
 package com.nphausg.leetcode.easy;
 
+import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
+
 /**
  * <a href="https://leetcode.com/problems/can-place-flowers">605. Can Place Flowers</a>
  */
+@RunWith(Enclosed.class)
 public class CanPlaceFlowers {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int count = 0;
@@ -20,5 +25,13 @@ public class CanPlaceFlowers {
             }
         }
         return false;
+    }
+
+    public static class TestCase extends BaseTest {
+
+        @org.junit.Test
+        public void testCases() {
+
+        }
     }
 }
