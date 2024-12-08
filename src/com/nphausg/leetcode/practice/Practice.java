@@ -1,6 +1,8 @@
 package com.nphausg.leetcode.practice;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.HashSet;
 
@@ -10,6 +12,7 @@ import static org.junit.Assert.assertEquals;
  * The following function prints the powers of 2 from 1 through n (inclusive).
  * For example, if n is 4, it would be print 1, 2, and 4.
  */
+@RunWith(Enclosed.class)
 public class Practice {
 
     public static int powerOf2(int n) {
