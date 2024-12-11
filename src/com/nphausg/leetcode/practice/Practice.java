@@ -4,9 +4,12 @@ import com.nphausg.leetcode.config.BaseTest;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 /**
  * The following function prints the powers of 2 from 1 through n (inclusive).
@@ -124,18 +127,63 @@ public class Practice {
         for (int i = 0; i < n - 1; i++) {
             sum += array[i];
         }
-        int expectedSum = n * (n + 1) / 2;
-        return expectedSum - sum;
+        return n * (n + 1) / 2 - sum;
     }
 
-    public static void sudoku() {
+    public static int minChange(int amount, List<Integer> coins) {
 
+        if (amount == 0) return 0;
+
+        if (amount < 0) return -1;
+
+        int minCoins = -1;
+        for (int coin : coins) {
+            int subAmount = amount - coin;
+            int subCoins = minChange(subAmount, coins);
+            if (subCoins != -1) {
+                int numCoins = subCoins + 1;
+                if (numCoins < minCoins || minCoins == -1) {
+                    minCoins = numCoins;
+                }
+            }
+        }
+
+        return minCoins;
+    }
+
+    public static int minChange2(int amount, List<Integer> coins) {
+        return minChange2(amount, coins, new HashMap<>());
+    }
+
+    public static int minChange2(int amount, List<Integer> coins, HashMap<Integer, Integer> memo) {
+
+        if (amount == 0) return 0;
+
+        if (amount < 0) return -1;
+
+        if (memo.containsKey(amount)) {
+            return memo.get(amount);
+        }
+        int minCoins = -1;
+        for (int coin : coins) {
+            int subAmount = amount - coin;
+            int subCoins = minChange(subAmount, coins);
+            if (subCoins != -1) {
+                int numCoins = subCoins + 1;
+                if (numCoins < minCoins || minCoins == -1) {
+                    minCoins = numCoins;
+                }
+            }
+        }
+        memo.put(amount, minCoins);
+        return minCoins;
     }
 
     public static class TestCase extends BaseTest {
 
         @org.junit.Test
         public void test() {
+
             System.out.println(powerOf2(3));
             System.out.println("2 ^ 3 = " + power(2, 3));
             System.out.println("9 mod 2 = " + mod(9, 2));
