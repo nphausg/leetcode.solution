@@ -1,12 +1,15 @@
 package com.nphausg.leetcode.easy;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
 
 /**
  * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">Buy and Sell stock </a>
  */
+@RunWith(Enclosed.class)
 public class BuyAndSellStockJava {
 
     // Brute-force
@@ -39,7 +42,7 @@ public class BuyAndSellStockJava {
         return maxProfit;
     }
 
-    public static class BuyAndSellStockTest extends BaseTest {
+    public static class TestCases extends BaseTest {
 
         @org.junit.Test
         public void testCases() {
