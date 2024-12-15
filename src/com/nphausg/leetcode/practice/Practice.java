@@ -97,12 +97,17 @@ public class Practice {
         }
     }
 
-    // Find the median of two sorted again
-    //public static double median(int[] arr1, int[] arr2) {
-    // [1, 2, 5]
-    // [2, 4, 6]
+    public String mergeAlternately(String word1, String word2) {
+        final int n = Math.min(word1.length(), word2.length());
+        StringBuilder sb = new StringBuilder();
 
-    // }
+        for (int i = 0; i < n; ++i) {
+            sb.append(word1.charAt(i));
+            sb.append(word2.charAt(i));
+        }
+
+        return sb.append(word1.substring(n)).append(word2.substring(n)).toString();
+    }
 
     public static int missingNumber(int n, int[] array) {
 
@@ -150,7 +155,7 @@ public class Practice {
             System.out.println("is `abcd10jk` unique = " + isUnique2("abcd10jk"));
             System.out.println("is `hutg9mnd!nk9` unique = " + isUnique2("hutg9mnd!nk9"));
             //
-            //median(new int[]{1, 2, 3, 4, 5, 6}, new int[]{0, 0, 0, 0, 10, 10});
+            // median(new int[]{1, 2, 3, 4, 5, 6}, new int[]{0, 0, 0, 0, 10, 10});
             // Missing number
             assertEquals(2, missingNumber(5, new int[]{1, 3, 4, 5}));
             assertEquals(4, missingNumber(5, new int[]{1, 2, 3, 5}));
