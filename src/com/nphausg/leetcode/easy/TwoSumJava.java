@@ -1,6 +1,8 @@
 package com.nphausg.leetcode.easy;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,6 +10,7 @@ import java.util.Map;
 /**
  * <a href="https://leetcode.com/problems/two-sum">Two Sum</a>
  */
+@RunWith(Enclosed.class)
 public class TwoSumJava {
 
     // Brute-force solution
@@ -36,7 +39,7 @@ public class TwoSumJava {
         return new int[]{-1, -1};
     }
 
-    public static class TwoSumTest extends BaseTest {
+    public static class TestCase extends BaseTest {
 
         @org.junit.Test
         public void testCases() {
@@ -52,19 +55,19 @@ public class TwoSumJava {
              * Input: nums = [3, 2, 4],target = 6
              * Output: [1, 2]
              */
-            //twoSum2(new int[]{3, 2, 4}, 6);
+            twoSum2(new int[]{3, 2, 4}, 6);
             /*
              * Example 3:
              * Input: nums = [3, 3],target = 6
              * Output: [0, 1]
              */
-            // twoSum2(new int[]{3, 3}, 6);
+            twoSum2(new int[]{3, 3}, 6);
             /*
              * Example 4:
              * Input: nums = [1, 3, 7, 9, 2],target = 11
              * Output: [3, 4]
              */
-            //  twoSum2(new int[]{1, 3, 7, 9, 2}, 11);
+            twoSum2(new int[]{1, 3, 7, 9, 2}, 11);
         }
     }
 }
