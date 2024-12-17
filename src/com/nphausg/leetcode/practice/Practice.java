@@ -109,31 +109,6 @@ public class Practice {
         return sb.append(word1.substring(n)).append(word2.substring(n)).toString();
     }
 
-    public static int missingNumber(int n, int[] array) {
-
-        int[] hash = new int[n + 1];
-
-        for (int i = 0; i < n - 1; i++) {
-            hash[array[i]]++;
-        }
-
-        for (int i = 1; i <= n; i++) {
-            if (hash[i] == 0) {
-                return i;
-            }
-        }
-
-        return -1;
-    }
-
-    public static int missingNumber2(int n, int[] array) {
-        int sum = 0;
-        for (int i = 0; i < n - 1; i++) {
-            sum += array[i];
-        }
-        return n * (n + 1) / 2 - sum;
-    }
-
     public static class TestCase extends BaseTest {
 
         @org.junit.Test
@@ -154,15 +129,6 @@ public class Practice {
             //
             System.out.println("is `abcd10jk` unique = " + isUnique2("abcd10jk"));
             System.out.println("is `hutg9mnd!nk9` unique = " + isUnique2("hutg9mnd!nk9"));
-            //
-            // median(new int[]{1, 2, 3, 4, 5, 6}, new int[]{0, 0, 0, 0, 10, 10});
-            // Missing number
-            assertEquals(2, missingNumber(5, new int[]{1, 3, 4, 5}));
-            assertEquals(4, missingNumber(5, new int[]{1, 2, 3, 5}));
-            assertEquals(5, missingNumber(8, new int[]{1, 2, 4, 6, 3, 7, 8}));
-            assertEquals(2, missingNumber2(5, new int[]{1, 3, 4, 5}));
-            assertEquals(4, missingNumber2(5, new int[]{1, 2, 3, 5}));
-            assertEquals(5, missingNumber2(8, new int[]{1, 2, 4, 6, 3, 7, 8}));
         }
     }
 }
