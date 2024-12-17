@@ -1,6 +1,8 @@
 package com.nphausg.leetcode.medium;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -10,6 +12,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">Longest Substring Without Repeating Characters</a>
  */
+@RunWith(Enclosed.class)
 public class LongestSubstringWithoutRepeatingCharacters {
 
     // Approach 2
@@ -60,7 +63,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return maxLength;
     }
 
-    public static class LongestSubstringWithoutRepeatingCharactersTest extends BaseTest {
+    public static class TestCase extends BaseTest {
 
         @org.junit.Test
         public void testCases() {
