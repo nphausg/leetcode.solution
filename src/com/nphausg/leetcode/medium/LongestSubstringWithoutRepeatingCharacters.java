@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
@@ -14,6 +15,31 @@ import static org.junit.Assert.assertEquals;
  */
 @RunWith(Enclosed.class)
 public class LongestSubstringWithoutRepeatingCharacters {
+
+    // Approach 1: Brute force solution O (n^3)
+    public static int lengthOfLongestSubstring(String s) {
+        int maxLength = 0, n = s.length();
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                if (allUnique(s, i, j)) {
+                    maxLength = Math.max(maxLength, j - i);
+                }
+            }
+        }
+        return maxLength;
+    }
+
+    private static boolean allUnique(String s, int left, int right) {
+        Set<Character> set = new HashSet<>();
+        for (int i = left; i < right; i++) {
+            char ch = s.charAt(i);
+            if (set.contains(ch)) {
+                return false;
+            }
+            set.add(ch);
+        }
+        return true;
+    }
 
     // Approach 2
     public static int lengthOfLongestSubstring2(String s) {
