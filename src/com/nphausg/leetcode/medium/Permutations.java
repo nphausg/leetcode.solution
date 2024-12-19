@@ -2,6 +2,8 @@ package com.nphausg.leetcode.medium;
 
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +13,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * <a href="https://leetcode.com/problems/permutations">46. Permutations</a>
  */
+@RunWith(Enclosed.class)
 public class Permutations {
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -40,7 +43,7 @@ public class Permutations {
         }
     }
 
-    public static class PermutationsTest extends BaseTest {
+    public static class TestCases extends BaseTest {
 
         @org.junit.Test
         public void testCases() {
