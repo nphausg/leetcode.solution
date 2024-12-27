@@ -1,6 +1,8 @@
 package com.nphausg.leetcode.medium;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 
@@ -9,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * <a href="https://leetcode.com/problems/single-number-ii">137. Single Number II</a>
  */
+@RunWith(Enclosed.class)
 public class SingleNumberII {
 
     public static int singleNumber2(int[] nums) {
