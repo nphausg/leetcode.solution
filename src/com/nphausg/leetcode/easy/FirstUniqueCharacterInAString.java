@@ -1,6 +1,8 @@
 package com.nphausg.leetcode.easy;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 
@@ -9,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * <a href="https://leetcode.com/problems/first-unique-character-in-a-string">387. First Unique Character in a String</a>
  */
+@RunWith(Enclosed.class)
 public class FirstUniqueCharacterInAString {
 
     public static int firstUniqChar(String s) {
@@ -34,6 +37,7 @@ public class FirstUniqueCharacterInAString {
             assertEquals(0, firstUniqChar("leetcode"));
             assertEquals(2, firstUniqChar("loveleetcode"));
             assertEquals(-1, firstUniqChar("aabb"));
+            assertEquals(1, firstUniqChar("swiss"));
         }
     }
 }
