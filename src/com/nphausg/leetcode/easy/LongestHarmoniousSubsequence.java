@@ -1,6 +1,8 @@
 package com.nphausg.leetcode.easy;
 
 import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 import java.util.Arrays;
 
@@ -9,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * <a href="https://leetcode.com/problems/longest-harmonious-subsequence">594. Longest Harmonious Subsequence</a>
  */
+@RunWith(Enclosed.class)
 public class LongestHarmoniousSubsequence {
 
     public static int findLHS(int[] nums) {
