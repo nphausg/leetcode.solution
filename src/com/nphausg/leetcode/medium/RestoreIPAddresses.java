@@ -1,11 +1,18 @@
 package com.nphausg.leetcode.medium;
 
+import com.nphausg.leetcode.config.BaseTest;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.Assert.assertArrayEquals;
 
 /**
  * <a href="https://leetcode.com/problems/restore-ip-addresses">93. Restore IP Addresses</a>
  */
+@RunWith(Enclosed.class)
 public class RestoreIPAddresses {
 
     public static List<String> restoreIpAddresses(String s) {
@@ -62,5 +69,13 @@ public class RestoreIPAddresses {
         }
         int val = Integer.parseInt(ip);
         return val >= 0 && val <= 255;
+    }
+
+    public static class TestCase extends BaseTest {
+
+        @org.junit.Test
+        public void testCases() {
+
+        }
     }
 }
