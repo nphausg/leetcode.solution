@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
 @RunWith(Enclosed.class)
 public class CanSum {
 
+    // BruteForce
     public static boolean canSum(int targetSum, int[] array) {
         if (targetSum == 0) return true;
         if (targetSum < 0) return false;
