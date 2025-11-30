@@ -13,8 +13,31 @@ import java.util.Arrays;
 public class RotateArray {
 
 
-    // Intermediate array, Space = O(n), Time = O(n)
     public static void rotate(int[] nums, int k) {
+        k = k % nums.length;
+        if (k > 0) {
+            int a = nums.length - k;
+            revert(nums, 0, a - 1);
+            revert(nums, a, nums.length - 1);
+            revert(nums, 0, nums.length - 1);
+        }
+    }
+
+    public static void revert(int[] nums, int left, int right) {
+        if (nums == null || nums.length == 1) {
+            return;
+        }
+        while (left < right) {
+            int temp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = temp;
+            left++;
+            right--;
+        }
+    }
+
+    // Intermediate array, Space = O(n), Time = O(n)
+    public static void rotate1(int[] nums, int k) {
         if (k > nums.length) {
             k = k % nums.length;
         }
