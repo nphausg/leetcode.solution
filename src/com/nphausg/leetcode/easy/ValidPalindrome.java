@@ -4,7 +4,8 @@ import com.nphausg.leetcode.config.BaseTest;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 /**
  * <a href="https://leetcode.com/problems/valid-palindrome">125. Valid Palindrome</a>

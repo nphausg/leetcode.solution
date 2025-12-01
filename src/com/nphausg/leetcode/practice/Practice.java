@@ -4,11 +4,7 @@ import com.nphausg.leetcode.config.BaseTest;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * The following function prints the powers of 2 from 1 through n (inclusive).
