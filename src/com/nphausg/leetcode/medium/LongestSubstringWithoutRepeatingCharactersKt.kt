@@ -23,4 +23,27 @@ class LongestSubstringWithoutRepeatingCharactersKt {
         }
         return maxSubstring
     }
+   
+   fun longestSubstringWithoutRepeating2(input: String): String {
+        var left = 0
+        var right = 0
+        var maxLength = 0
+        var bestStart = 0
+        val chars = hashSetOf<Char>()
+        while (right < input.length){
+            if(!chars.contains(input[right])){
+                chars.add(input[right])
+                val window = right - left + 1 
+                if(window > maxLength){
+                    maxLength = window
+                    bestStart = left
+                }
+                right++
+            } else {
+                chars.remove(input[left])
+                left++
+            }
+        }
+        return s.substring(bestStart, bestStart + maxLength)
+    }
 }
