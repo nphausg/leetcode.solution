@@ -3,28 +3,26 @@ package com.nphausg.leetcode.easy
 /**
  * <a href="https://leetcode.com/problems/two-sum">Two Sum</a>
  * */
-object TwoSum {
+class Solution {
+    fun twoSum(nums: IntArray, target: Int): IntArray {
+        // for (i in 0 until nums.size){
+        //     for (j in 0 until nums.size -1){
+        //         if(i !=j && nums[i] + nums[j] == target){
+        //             return intArrayOf(i, j)
+        //         }
+        //     }
+        // }
+        // return intArrayOf()
 
-    fun solution_brute_force(nums: IntArray, target: Int): IntArray {
-        for (i in nums.indices) {
-            for (j in i + 1 until nums.size) {
-                if (nums[i] + nums[j] == target) {
-                    return intArrayOf(i, j)
-                }
-            }
-        }
-        throw IllegalArgumentException("No two sum solution")
-    }
 
-    fun solution_hash_map(nums: IntArray, target: Int): IntArray {
         val map = mutableMapOf<Int, Int>()
-        for (i in nums.indices) {
-            val complement = target - nums[i]
-            if (map.containsKey(complement)) {
-                return intArrayOf(map[complement]!!, i)
+        for (i in nums.indices){
+            val diff = target - nums[i]
+            if(map.containsKey(diff)){
+                return intArrayOf(map[diff]!!, i)
             }
             map[nums[i]] = i
         }
-        throw IllegalArgumentException("No two sum solution")
+        return intArrayOf()
     }
 }
