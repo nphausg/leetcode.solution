@@ -7,7 +7,7 @@
  * Copyright (c) 2021 . All rights reserved.
  * Last modified 09/12/2021, 15:54
  */
-class Solution {
+class LC0041FirstMissingPositive {
     fun firstMissingPositive(nums: IntArray): Int {
         val set = nums.toHashSet()
         var target = 1
@@ -31,7 +31,7 @@ class Solution {
         return n + 1
     }
 
-    fun firstMissingPositive(nums: IntArray): Int {
+    fun firstMissingPositive2(nums: IntArray): Int {
         val n = nums.size
         var i = 0
         while (i < n){
