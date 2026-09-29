@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/squares-of-a-sorted-array">977. Squares of a Sorted Array</a>
  */
 
-class Solution {
+class LC0977SquaresOfSortedArray {
     fun sortedSquares(nums: IntArray): IntArray {
         for (i in nums.indices) {
             nums[i] = nums[i] * nums[i]

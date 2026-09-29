@@ -1,8 +1,10 @@
+import java.util.PriorityQueue
+
 /**
  * <a href="https://leetcode.com/problems/last-stone-weight">1046. Last Stone Weight</a>
  */
 
-class Solution {
+class LC1046LastStoneWeight {
     fun lastStoneWeight(stones: IntArray): Int {
         val maxHeap = PriorityQueue<Int>(compareByDescending { it })
         for (stone in stones){

@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/number-of-islands">200. Number of Islands</a>
  */
 
-class Solution {
+class LC0200NumberOfIslandskt {
     fun numIslands(grid: Array<CharArray>): Int {
         var count = 0
         for (r in grid.indices){

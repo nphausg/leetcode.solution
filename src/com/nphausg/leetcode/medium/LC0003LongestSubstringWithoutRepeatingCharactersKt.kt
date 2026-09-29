@@ -43,6 +43,6 @@ class LongestSubstringWithoutRepeatingCharactersKt {
                 left++
             }
         }
-        return s.substring(bestStart, bestStart + maxLength)
+        return input.substring(bestStart, bestStart + maxLength)
     }
 }

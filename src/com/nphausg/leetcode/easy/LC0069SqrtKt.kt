@@ -3,7 +3,7 @@ package com.nphausg.leetcode.easy
  * <a href="https://leetcode.com/problems/sqrtx">69. Sqrt(x)</a>
  */
 
-class Solution {
+class LC0069SqrtKt {
     fun mySqrt(x: Int): Int {
         // if x < 2 -> x
         // left = 2, right = x / 2

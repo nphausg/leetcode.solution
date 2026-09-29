@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/daily-temperatures">739. Daily Temperatures</a>
  */
 
-class Solution {
+class LC0739DailyTemperatures {
     fun dailyTemperatures(t: IntArray): IntArray {
         val n = t.size
         val result = IntArray(n) {0}

@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/sort-colors">75. Sort Colors</a>
  */
 
-class Solution {
+class LC0075SortColors {
     fun sortColors(nums: IntArray): Unit {
         val n = nums.size
         var low = 0

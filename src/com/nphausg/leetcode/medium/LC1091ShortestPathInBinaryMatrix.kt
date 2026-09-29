@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/shortest-path-in-binary-matrix">1091. Shortest Path in Binary Matrix</a>
  */
 
-class Solution {
+class LC1091ShortestPathInBinaryMatrix {
     fun shortestPathBinaryMatrix(grid: Array<IntArray>): Int {
         val n = grid.size
         

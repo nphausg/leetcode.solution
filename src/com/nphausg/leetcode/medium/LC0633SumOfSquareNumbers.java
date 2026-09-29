@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
  */
 
 @RunWith(Enclosed.class)
-public final class SumOfSquareNumbers {
+public class LC0633SumOfSquareNumbers {
 
     public static boolean judgeSquareSum(int c) {
         return true;

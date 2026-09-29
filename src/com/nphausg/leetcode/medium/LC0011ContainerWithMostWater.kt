@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/container-with-most-water">11. Container With Most Water</a>
  */
 
-class Solution {
+class LC0011ContainerWithMostWater {
     fun maxArea(height: IntArray): Int {
         var left = 0
         var right = height.size - 1

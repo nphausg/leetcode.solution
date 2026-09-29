@@ -2,7 +2,7 @@
  * <a href="https://leetcode.com/problems/merge-intervals">56. Merge Intervals</a>
  */
 
-class Solution {
+class LC0056MergeIntervalsKt {
     fun merge(intervals: Array<IntArray>): Array<IntArray> {
         if( intervals.isEmpty()) return arrayOf()
         intervals.sortBy { it[0] }

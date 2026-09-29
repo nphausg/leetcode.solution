@@ -3,7 +3,7 @@ package com.nphausg.leetcode.easy
  * <a href="https://leetcode.com/problems/two-sum">1. Two Sum</a>
  */
 
-class Solution {
+class LC0001TwoSumKt {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         // for (i in 0 until nums.size){
         //     for (j in 0 until nums.size -1){

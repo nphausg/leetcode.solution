@@ -3,7 +3,7 @@ package com.nphausg.leetcode.easy
 /**
  * <a href="https://leetcode.com/problems/merge-two-sorted-lists">21. Merge Two Sorted Lists</a>
  */
-class LC0021MergeTwoSortedLists {
+class LC0021MergeTwoSortedListsKt {
     fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
         if (l1 == null) return l2
         if (l2 == null) return l1
